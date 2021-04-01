@@ -25,7 +25,7 @@ for (alumno in alumnosTotales) {
 	______Presentes: ${alumnosTotales[alumno][1]} </br>
 	______Ausentes: ${30 - alumnosTotales[alumno][1]} </br>`
 	if (30 - alumnosTotales[alumno][1] > 18) {
-		resultado = "REPROBADO </br>"
+		resultado = "REPROBADO </br></br>"
 	}else{
 		resultado += "</br>"
 	}document.write(resultado);
