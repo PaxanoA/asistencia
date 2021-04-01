@@ -10,7 +10,7 @@ for (i = 0; i < cantidad; i++) {
 const tomarAsistencia = (nombre, p) =>{
 	let presencia = prompt(nombre);
 	if (presencia == "p" || "P"){
-		alumnosTotales[p][1]; /* el error sale en esta linea de codigo, no llama a la posicion 1 */
+		alumnosTotales[p][1]++; /* el error fue solucionado en esta linea, faltaba el "++" */
 	}
 }
 for (i = 0; i < 30; i++) {
